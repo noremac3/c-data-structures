@@ -21,7 +21,15 @@ int main(int argc, char* argv[])
     struct dataStruct testStack;
 
     /*
-    int* newStack = newStack((int *) );
+    void* stack_init(int capacity)
+
+
+
+
+    struct dataStruct newStruct;
+    int* myStack = newStruct.data;
+    newStruct = stack_init()
+
     */
 
     stack_init();

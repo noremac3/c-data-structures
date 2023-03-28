@@ -1,6 +1,7 @@
 #include "structs.h"
 
-struct dataStruct stack_init(int type, int capacity);
+void init_type(int type);
+struct dataStruct stack_init(int dataType, int capacity);
 bool stack_is_empty(struct dataStruct myStack);
 bool stack_push(struct dataStruct* myStack, elementType element);
 union dataTypes stack_pop(struct dataStruct* myStack);
